@@ -1,0 +1,31 @@
+$primary: #06283D;
+$secondary: #1363DF;
+$tertiary: #47B5FF;
+$quaternary: #DFF6FF;
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+    background-color: $quaternary;
+    color: $primary;
+}
+
+.header {
+    background-color: $secondary;
+    
+    .navbar-brand {
+        color: white;
+    }
+}
+
+.main-content {
+
+    .container {
+        min-height: 600px;
+    }
+}
+
+.footer {
+    color: $primary;
+}
